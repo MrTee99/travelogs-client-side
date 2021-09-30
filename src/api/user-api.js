@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const baseUrl = "http://localhost:5000/api/users"
+// const baseUrl = "http://localhost:5000/api/users"
+const baseUrl = "https://tahir-nodejs-travelogs-api.herokuapp.com/api/users"
 const loginUrl = `${baseUrl}/login`
 const registerUrl = `${baseUrl}/register`
 const logoutUrl = `${baseUrl}/logout`

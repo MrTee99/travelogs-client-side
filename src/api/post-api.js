@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const baseUrl = "http://localhost:5000/api/posts"
+// const baseUrl = "http://localhost:5000/api/posts"
+const baseUrl = "https://tahir-nodejs-travelogs-api.herokuapp.com/api/posts"
 const getAllPostsOfAllUsersUrl = `${baseUrl}/`
 const getSpecificPostUrl = (postID) => `${baseUrl}/${postID}`
 const getAllPostsOfSpecificUserUrl = (userID) => `${baseUrl}/user/${userID}`
