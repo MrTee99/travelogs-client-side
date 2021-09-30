@@ -1,0 +1,17 @@
+.spinner {
+    display: inline-block;
+    position: relative;
+}
+.spinner div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    animation: spinAnim 1.2s linear infinite normal;
+}
+@keyframes spinAnim {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

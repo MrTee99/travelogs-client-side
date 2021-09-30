@@ -1,0 +1,33 @@
+// $yellow: #FFC68A;
+// $green: #83DEC4;
+// $purple: #A4ADE9;
+// $blue: #84DFE2;
+// $peach: #FFA48E;
+
+$yellow: #FFAF5F;
+$green: #4ACFAC;
+$purple: #7E8CE0;
+$blue: #55D1D8;
+$peach: #FFA48E;
+
+.base { width: 10%; height: 100%; transform: translateY(-50%); }
+
+.yellow { background-image: linear-gradient(to top, lighten($yellow, 10%), darken($yellow, 10%) ); }
+.yellowAnim { animation: anim 400ms ease-in-out 0s infinite alternate; }
+
+.green { background-image: linear-gradient(to top, lighten($green, 10%), darken($green, 10%) ); }
+.greenAnim { animation: anim 400ms ease-in-out 0.1s infinite alternate; }
+
+.purple { background-image: linear-gradient(to top, lighten($purple, 10%), darken($purple, 10%) ); }
+.purpleAnim { animation: anim 400ms ease-in-out 0.05s infinite alternate; }
+
+.blue { background-image: linear-gradient(to top, lighten($blue, 10%), darken($blue, 10%) ); }
+.blueAnim { animation: anim 400ms ease-in-out 0.15s infinite alternate; }
+
+.peach { background-image: linear-gradient(to top, lighten($peach, 10%), darken($peach, 10%) ); }
+.peachAnim { animation: anim 400ms ease-in-out 0.2s infinite alternate; }
+
+@keyframes anim {
+    from { transform: translateY(-50%) }
+    to { transform: translateY(0%); }
+}

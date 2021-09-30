@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Convergence&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 0.5rem; }           /* width */
+::-webkit-scrollbar-track { margin: 0.5rem; }    /* Track */  
